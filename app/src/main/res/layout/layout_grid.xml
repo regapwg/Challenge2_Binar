@@ -19,8 +19,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="@string/hai_binarian"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            style="@style/TeksBesarBold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -83,8 +82,7 @@
             android:layout_marginTop="16dp"
             android:text="@string/diskon_30"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            style="@style/TeksBesarBold"
             app:layout_constraintStart_toStartOf="@id/imageDiskon30"
             app:layout_constraintTop_toTopOf="@id/imageIklan" />
 
@@ -186,8 +184,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
             android:text="@string/list_menu_makan"
-            android:textSize="20sp"
-            android:textStyle="bold"
+            style="@style/TeksBesarBold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textNasi" />
 
@@ -238,8 +235,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="2dp"
             android:text="@string/rp_50_000"
-            android:textStyle="bold"
-            android:textSize="12sp"
+            style="@style/TeksKecilBold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textAyamBakar" />
 
@@ -261,8 +257,7 @@
             android:layout_marginStart="149dp"
             android:layout_marginTop="2dp"
             android:text="@string/rp_40_000"
-            android:textSize="12sp"
-            android:textStyle="bold"
+            style="@style/TeksKecilBold"
             app:layout_constraintStart_toEndOf="@+id/textHargaAyamBakar"
             app:layout_constraintTop_toBottomOf="@+id/textAyamGoreng" />
 
@@ -304,8 +299,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="2dp"
             android:text="@string/rp_40_000"
-            android:textSize="12sp"
-            android:textStyle="bold"
+            style="@style/TeksKecilBold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textAyamGeprek" />
 
@@ -327,8 +321,7 @@
             android:layout_marginStart="149dp"
             android:layout_marginTop="2dp"
             android:text="@string/rp_5_000"
-            android:textSize="12sp"
-            android:textStyle="bold"
+            style="@style/TeksKecilBold"
             app:layout_constraintStart_toEndOf="@+id/textHargaAyamGeprek"
             app:layout_constraintTop_toBottomOf="@+id/textSateUsus" />
     </androidx.constraintlayout.widget.ConstraintLayout>

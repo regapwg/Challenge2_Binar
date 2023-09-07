@@ -6,4 +6,15 @@
     </style>
 
     <style name="Theme.Challenge2_binar" parent="Base.Theme.Challenge2_binar" />
+    
+    <style name="TeksBesarBold">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TeksKecilBold">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
