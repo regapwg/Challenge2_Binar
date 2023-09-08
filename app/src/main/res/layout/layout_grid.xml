@@ -56,12 +56,12 @@
         <ImageView
             android:id="@+id/imageIklan"
             android:layout_width="378dp"
-            android:layout_height="144dp"
+            android:layout_height="154dp"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textMauMakanApa"
-            app:srcCompat="@drawable/bg1"
+            app:srcCompat="@drawable/iklan"
             tools:visibility="visible" />
 
         <ImageView
@@ -76,26 +76,36 @@
 
         <TextView
             android:id="@+id/textDiskon30"
+            style="@style/TeksBesarBold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="104dp"
             android:layout_marginTop="16dp"
             android:text="@string/diskon_30"
             android:textColor="@color/white"
-            style="@style/TeksBesarBold"
             app:layout_constraintStart_toStartOf="@id/imageDiskon30"
             app:layout_constraintTop_toTopOf="@id/imageIklan" />
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:text="@string/pesan_makanan_lewat_aplikasi"
             android:textColor="@color/white"
-            android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageDiskon30"
             app:layout_constraintTop_toBottomOf="@+id/textDiskon30" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/dan_dapatkan_diskonmu"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/imageDiskon30"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <ImageView
             android:id="@+id/imageNasi"
@@ -324,6 +334,8 @@
             style="@style/TeksKecilBold"
             app:layout_constraintStart_toEndOf="@+id/textHargaAyamGeprek"
             app:layout_constraintTop_toBottomOf="@+id/textSateUsus" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
