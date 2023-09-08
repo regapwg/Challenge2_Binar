@@ -115,7 +115,7 @@
             android:layout_marginTop="22dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageIklan"
-            app:srcCompat="@drawable/nasi" />
+            app:srcCompat="@drawable/nasi2" />
 
         <ImageView
             android:id="@+id/imageMie"
@@ -125,7 +125,7 @@
             android:layout_marginTop="22dp"
             app:layout_constraintStart_toEndOf="@+id/imageNasi"
             app:layout_constraintTop_toBottomOf="@+id/imageIklan"
-            app:srcCompat="@drawable/mie" />
+            app:srcCompat="@drawable/mie2" />
 
         <ImageView
             android:id="@+id/imageSnack"
@@ -135,7 +135,7 @@
             android:layout_marginTop="22dp"
             app:layout_constraintStart_toEndOf="@+id/imageMie"
             app:layout_constraintTop_toBottomOf="@+id/imageIklan"
-            app:srcCompat="@drawable/snack" />
+            app:srcCompat="@drawable/snack2" />
 
         <ImageView
             android:id="@+id/imageMinuman"
@@ -145,13 +145,13 @@
             android:layout_marginTop="22dp"
             app:layout_constraintStart_toEndOf="@+id/imageSnack"
             app:layout_constraintTop_toBottomOf="@+id/imageIklan"
-            app:srcCompat="@drawable/minuman" />
+            app:srcCompat="@drawable/minuman2" />
 
         <TextView
             android:id="@+id/textNasi"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="42dp"
+            android:layout_marginStart="39dp"
             android:layout_marginTop="8dp"
             android:text="@string/nasi"
             app:layout_constraintStart_toStartOf="parent"
@@ -161,7 +161,7 @@
             android:id="@+id/textMie"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="72dp"
+            android:layout_marginStart="76dp"
             android:layout_marginTop="8dp"
             android:text="@string/mie"
             app:layout_constraintStart_toEndOf="@+id/textNasi"
@@ -171,7 +171,7 @@
             android:id="@+id/textSnack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="74dp"
+            android:layout_marginStart="72dp"
             android:layout_marginTop="8dp"
             android:text="@string/snack"
             app:layout_constraintStart_toEndOf="@+id/textMie"
