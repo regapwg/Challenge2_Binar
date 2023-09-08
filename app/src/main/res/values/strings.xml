@@ -17,4 +17,13 @@
     <string name="rp_5_000">Rp 5.000</string>
     <string name="ayam_geprek">Ayam Geprek</string>
     <string name="dan_dapatkan_diskonmu">dan dapatkan diskonmu</string>
+    <string name="keranjang">Keranjang</string>
+    <string name="user">User</string>
+    <string name="iklan_discount_30">Iklan discount 30%</string>
+    <string name="kategori_nasi">Kategori nasi</string>
+    <string name="kategori_mie">Kategori mie</string>
+    <string name="kategori_snack">Kategori snack</string>
+    <string name="kategori_minuman">Kategori minuman</string>
+    <string name="button_list_layout">button list layout</string>
+    <string name="list_layout">list layout</string>
 </resources>
