@@ -26,4 +26,8 @@
     <string name="kategori_minuman">Kategori minuman</string>
     <string name="button_list_layout">button list layout</string>
     <string name="list_layout">list layout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>
